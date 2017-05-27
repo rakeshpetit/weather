@@ -25498,9 +25498,18 @@
 
 	var About = function About(props) {
 	  return React.createElement(
-	    'h2',
+	    'div',
 	    null,
-	    'About  Component'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'About'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Weather React project by Rakesh'
+	    )
 	  );
 	};
 
@@ -29200,9 +29209,18 @@
 
 	var Examples = function Examples(props) {
 	  return React.createElement(
-	    'h2',
+	    'div',
 	    null,
-	    'Examples  Component'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'Examples'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Type a City to view the weather'
+	    )
 	  );
 	};
 
